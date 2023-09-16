@@ -1,0 +1,94 @@
+@import url("http://fonts.googleapis.com/css?family=Mr+Dafoe");
+@import url("http://fonts.googleapis.com/css?family=Titillium+Web:900");
+@import url("http://fonts.googleapis.com/css?family=Righteous");
+@import url("http://fonts.googleapis.com/css?family=Candal");
+@import url("http://fonts.googleapis.com/css?family=Permanent+Marker");
+@import url("http://fonts.googleapis.com/css?family=Monoton");
+
+body {
+  background-color: #000;
+}
+
+header {
+  position: relative;
+  background-image: linear-gradient(#378dbc 0%, #b6e8f1 46%, #fff 50%, #32120e 54%, #ffc488 58%, #582c11 90%, #ec9b4e 100%);
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-family: "Permanent Marker", cursive;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+header h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 200px;
+  font-style: italic;
+  line-height: 1;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 4px #f5f5f5;
+}
+
+header h3 {
+  position: absolute;
+  top: 150px;
+  font-family: "Mr Dafoe", cursive;
+  font-size: 160px;
+  color: #f975f7;
+  filter: drop-shadow(2px 2px 20px #f008b7);
+  transform: rotate(-15deg);
+  -webkit-text-stroke: 1px #f008b7;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+}
+
+main section #music-name {
+    font-family: "Permanent Marker", cursive;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #11dc36;
+    text-align: center;
+    margin-top: 180px;
+}
+
+main section div img {
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+}
+
+main #game-zone {
+  border: 7px dotted #ffffff;
+  box-shadow: inset 0 -3px 0 0 #f5f5f5, 0 3px 0 0 #f5f5f5;
+  font-family: "Permanent Marker", cursive;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  width: 300px;
+  height: fit-content;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+  margin-bottom: 50px; 
+}
+
+#btn {
+  background-color: #840464;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: bold;
+}

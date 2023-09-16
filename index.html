@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <script src="./assets/Javascript/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>HANGMAN</h1>
+        <h3>80s style</h3>
+    </header>
+
+    <main id="container">
+        <section>
+            <!-- The div where our band image will be shown -->
+            <h2 id="music-name"></h2>
+            <div>
+                <img src="./assets/images/hangman-boardgame.jpg" alt="" id="img">
+            </div>
+        </section>
+        <div id="game-zone">
+            <section id="game-section">
+                <p>Press any key to get started!</p>
+                <br>
+                <h3>Wins</h3>
+                <!-- The div where our wins will be shown. -->
+                <div id="wins"></div> 
+                <br>
+                <h3>Losses</h3> 
+                <div id="losses"></div> 
+            </section>
+            <section id="current-word-section">
+                <h3>Current Word</h3>
+                <!-- The div where our current word (and guessing progress) will be shown. -->
+                <div id="current-word"></div>
+            </section>
+            <section id="guesses-remaining-section">
+                <h3>Number of Guesses Remaining</h3>
+                <br>
+                <!-- The div where our remaining guesses will be shown. -->
+                <div id="guesses-remaining"></div>
+            </section>
+            <section id="guessed-letters-section">
+                <h3>Letters Already Guessed</h3>
+                <br>
+                <!-- The div where our guesses letters will be shown. -->
+                <div id="guessed-letters"></div>
+            </section>
+            <button id="btn">Reset Score</button>
+        </div>
+    </main>
+</body>
+</html>
